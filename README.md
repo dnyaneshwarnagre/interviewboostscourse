@@ -32,21 +32,21 @@
 - Method Overloading and Overriding
 - Access Modifiers (public, private, protected, default)
 - this and super keywords
-- OOP Relationships:
+- **OOP Relationships:**
   - Association
   - Aggregation
   - Composition
   - Dependency
 
 ## 4. Java Keywords
-- Access Modifiers: public, private, protected, default
-- Class/Method Modifiers: static, final, abstract, synchronized, volatile, transient
-- Control Flow: if, else, switch, case, for, while, do, break, continue, return
-- Exception Handling: try, catch, finally, throw, throws
-- OOP: class, interface, extends, implements, new, this, super, instanceof
-- Data Types: byte, short, int, long, float, double, char, boolean, void
-- Others: package, import, native, strictfp, enum, assert
-- Reserved: const, goto
+- **Access Modifiers:** public, private, protected, default
+- **Class/Method Modifiers:** static, final, abstract, synchronized, volatile, transient
+- **Control Flow:** if, else, switch, case, for, while, do, break, continue, return
+- **Exception Handling:** try, catch, finally, throw, throws
+- **OOP:** class, interface, extends, implements, new, this, super, instanceof
+- **Data Types:** byte, short, int, long, float, double, char, boolean, void
+- **Others:** package, import, native, strictfp, enum, assert
+- **Reserved:** const, goto
 
 ## 5. Arrays and Strings
 - One-Dimensional and Multi-Dimensional Arrays
