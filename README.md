@@ -126,7 +126,7 @@
 
 ---
 
-# SQL Basics (Structured Query Language)
+# SQL (Structured Query Language)
 
 ## 1. Introduction to SQL
 - What is SQL?
