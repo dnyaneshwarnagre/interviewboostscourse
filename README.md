@@ -1,4 +1,3 @@
-# InterviewBoosts: Comprehensive Course Content
 
 # Java Syllabus (Basic to Advanced with Java 8)
 
