@@ -10,6 +10,7 @@
 - Java Program Structure
 - Compiling and Running Java Programs
 - **Interview Questions**
+- **Programming Questions**
 
 ## 2. Java Basics
 - Data Types and Variables
@@ -22,6 +23,7 @@
   - Loops (for, while, do-while)
   - break, continue, return
  - **Interview Questions**
+ - **Programming Questions**
 
 ## 3. Object-Oriented Programming (OOP) in Java
 - 4 Pillars of OOP:
@@ -40,6 +42,7 @@
   - Composition
   - Dependency
 - **Interview Questions**
+- **Programming Questions**
   
 ## 4. Java Keywords
 - **Access Modifiers:** public, private, protected, default
@@ -395,7 +398,7 @@
 - **Working with Sequenced Collections**
 
   
-# Design Patterns in Java
+## Design Patterns in Java
 - **Creational Patterns:**
   - Singleton Pattern
   - Factory Pattern
@@ -410,7 +413,7 @@
   - Chain of Responsibility Pattern
 - many more
    
- # SQL
+ ## SQL
  ## 11. Indexes and Views
 - Introduction to Indexing
 - Creating and Managing Indexes
