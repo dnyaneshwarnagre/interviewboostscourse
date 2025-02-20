@@ -59,7 +59,6 @@
 - Introduction to Exceptions
 - try-catch-finally Block
 - Multiple Catch Blocks
-- String Manipulation Methods
 - Custom Exceptions
 - throws vs throw
 - Best Practices for Exception Handling
