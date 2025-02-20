@@ -9,6 +9,7 @@
 - Setting Up Java Development Environment (JDK, JRE, JVM)
 - Java Program Structure
 - Compiling and Running Java Programs
+- **Interview Questions**
 
 ## 2. Java Basics
 - Data Types and Variables
@@ -20,6 +21,7 @@
   - switch-case
   - Loops (for, while, do-while)
   - break, continue, return
+ - **Interview Questions**
 
 ## 3. Object-Oriented Programming (OOP) in Java
 - 4 Pillars of OOP:
@@ -37,7 +39,8 @@
   - Aggregation
   - Composition
   - Dependency
-
+- **Interview Questions**
+  
 ## 4. Java Keywords
 - **Access Modifiers:** public, private, protected, default
 - **Class/Method Modifiers:** static, final, abstract, synchronized, volatile, transient
@@ -54,6 +57,8 @@
 - String Class and StringBuilder/StringBuffer
 - String Manipulation Methods
 - Regular Expressions (Regex)
+- **Programming Questions**
+- **Interview Questions**
 
 ## 6. Exception Handling
 - Introduction to Exceptions
@@ -62,6 +67,8 @@
 - Custom Exceptions
 - throws vs throw
 - Best Practices for Exception Handling
+- **Programming Questions**
+- **Interview Questions**
 
 ## 7. Java Collections Framework
 - List, Set, Map, Queue Interfaces
@@ -69,6 +76,8 @@
 - Iterator and ListIterator
 - Comparable vs Comparator
 - Collections Utility Class
+- **Programming Questions**
+- **Interview Questions**
 
 ## 8. Multithreading and Concurrency
 - Introduction to Threads
@@ -79,6 +88,8 @@
 - Synchronization
 - Inter-thread Communication
 - Executor Framework
+- **Programming Questions**
+- **Interview Questions**
 
 ## 9. Input/Output (I/O) in Java
 - File Handling
@@ -87,6 +98,8 @@
   - BufferedReader
   - BufferedWriter
 - Serialization and Deserialization
+- **Programming Questions**
+- **Interview Questions**
 
 ## 10. Java 8 Features
 - Introduction to Java 8
@@ -97,27 +110,19 @@
 - Optional Class
 - Date and Time API (java.time)
 - Default and Static Methods in Interfaces
+- **Programming Questions**
+- **Interview Questions**
 
+--
+# JDBC 
 ## 11. JDBC (Java Database Connectivity)
 - Introduction to JDBC
 - Connecting to Databases
 - CRUD Operations
 - PreparedStatement and CallableStatement
 - ResultSet and Transaction Management
-
-## 15. Design Patterns in Java
-- **Creational Patterns:**
-  - Singleton Pattern
-  - Factory Pattern
-  - Builder Pattern
-- **Structural Patterns:**
-  - Proxy Pattern
-  - Facade Pattern
-  - Bridge Pattern
-- **Behavioral Patterns:**
-  - Observer Pattern
-  - Strategy Pattern
-  - Chain of Responsibility Pattern
+- **Programming Questions**
+- **Interview Questions**
 
 ---
 
@@ -185,12 +190,6 @@
 - PRIMARY KEY and FOREIGN KEY
 - NOT NULL, UNIQUE, CHECK, DEFAULT
 - Understanding Referential Integrity
-
-## 11. Indexes and Views
-- Introduction to Indexing
-- Creating and Managing Indexes
-- Working with Views for Simplified Data Access
-
 ---
 
 # Spring Framework: REST API and Spring Boot (CRUD APIs)
@@ -314,3 +313,100 @@
 - Closures and Lexical Scope
 - Hoisting in JavaScript
 - Debouncing and Throttling Techniques
+
+--
+
+# Other Topics
+# Java 11, Java 17, and Java 21 Course Syllabus
+
+## **Java 11 (LTS)**
+### **Module 2: New Features in Java 11**
+- **String API Enhancements**  
+  - `isBlank()`, `lines()`, `strip()`, `repeat()`  
+- **Local Variable Type Inference Enhancements**  
+  - Using `var` in lambda expressions  
+- **New Methods in Files and Optional**  
+  - `Files.readString()`, `Files.writeString()`  
+  - `Optional.isEmpty()`  
+- **HTTP Client (Standardized in Java 11)**  
+  - Synchronous & asynchronous requests  
+- **Garbage Collector Enhancements**  
+  - Introduction of **ZGC**  
+- **Flight Recorder and Mission Control**  
+  - Performance profiling for Java applications  
+- **Removed Features**  
+  - Removal of Java EE modules (JAXB, JAX-WS, CORBA)  
+  - Deprecation of Nashorn JavaScript Engine  
+
+---
+
+## **Java 17 (LTS)**
+### **Module 3: New Features in Java 17**
+- **Sealed Classes (JEP 409)**  
+  - Restricting class inheritance  
+- **Pattern Matching for `switch` (Preview) (JEP 406)**  
+  - Pattern matching with switch statements  
+- **Text Blocks (Finalized from Java 13/15)**  
+  - Multi-line string literals  
+- **New Garbage Collector (G1 and ZGC Improvements)**  
+  - Reduced GC pauses and memory footprint  
+- **Foreign Function & Memory API (Incubator)**  
+  - Directly accessing native code without JNI  
+- **New Cryptographic Features**  
+  - Stronger TLS defaults, improved security algorithms  
+- **Deprecations & Removals**  
+  - Removal of **Applet API**  
+  - Deprecation of **Security Manager**  
+  - Deprecation of **RMI Activation System**  
+
+---
+
+## **Part 3: Java 21 (LTS)**
+### **Module 4: New Features in Java 21**
+- **Virtual Threads (JEP 444 - Finalized)**  
+  - Lightweight concurrency using `Thread.ofVirtual()`  
+- **Record Patterns (JEP 440 - Finalized)**  
+  - Enhanced pattern matching for `record` types  
+- **String Templates (JEP 430 - Preview)**  
+  - Interpolation of variables in strings  
+- **Sequenced Collections (JEP 431 - Finalized)**  
+  - New ordered collection APIs (`SequencedMap`, `SequencedSet`)  
+- **Scoped Values (JEP 446 - Preview)**  
+  - Thread-local alternatives for safer concurrency  
+- **Structured Concurrency (JEP 453 - Preview)**  
+  - Managing dependent tasks efficiently  
+- **Garbage Collector Enhancements**  
+  - Performance improvements in **ZGC & G1 GC**  
+- **Security Updates**  
+  - Enhanced random number generation (`RandomGenerator`)  
+  - Stronger cryptographic features  
+
+---
+
+## **Hands-On Projects & Exercises**
+- **Building REST APIs using Java 17+ HTTP Client**
+- **Concurrency with Virtual Threads in Java 21**
+- **Using Record Patterns and Pattern Matching**
+- **Working with Sequenced Collections**
+
+  
+# Design Patterns in Java
+- **Creational Patterns:**
+  - Singleton Pattern
+  - Factory Pattern
+  - Builder Pattern
+- **Structural Patterns:**
+  - Proxy Pattern
+  - Facade Pattern
+  - Bridge Pattern
+- **Behavioral Patterns:**
+  - Observer Pattern
+  - Strategy Pattern
+  - Chain of Responsibility Pattern
+- many more
+   
+ # SQL
+ ## 11. Indexes and Views
+- Introduction to Indexing
+- Creating and Managing Indexes
+- Working with Views for Simplified Data Access
