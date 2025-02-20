@@ -139,6 +139,7 @@
   - **Isolation:** Transactions are executed independently without interference.
   - **Durability:** Once a transaction is committed, it remains permanent even in case of failures.
 
+  
 ## 2. SQL Data Types
 - Numeric Data Types (INT, DECIMAL, FLOAT)
 - String Data Types (CHAR, VARCHAR, TEXT)
@@ -190,6 +191,8 @@
 - PRIMARY KEY and FOREIGN KEY
 - NOT NULL, UNIQUE, CHECK, DEFAULT
 - Understanding Referential Integrity
+## 11. Programming Questions
+## 12. Interview Questions
 ---
 
 # Spring Framework: REST API and Spring Boot (CRUD APIs)
@@ -231,6 +234,8 @@
 - Introduction to Unit and Integration Testing
 - Writing Unit Tests with JUnit and Mockito
 
+## 8. Programming Questions
+## 9. Interview Questions
 ---
 
 # JavaScript (JS) Essentials
@@ -314,10 +319,10 @@
 - Hoisting in JavaScript
 - Debouncing and Throttling Techniques
 
---
+##  📍  13. Programming Questions
+##  📍  14. Interview Questions
 
 # Other Topics
-# Java 11, Java 17, and Java 21 Course Syllabus
 
 ## **Java 11 (LTS)**
 ### **Module 2: New Features in Java 11**
